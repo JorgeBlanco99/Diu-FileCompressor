@@ -23,7 +23,7 @@ import javax.swing.SwingWorker;
 public class Handler extends SwingWorker<Void, Integer> {
     private  String absolutePath;
     private  List<String> files;
-    private  int BUFFER_SIZE =100;
+    private  int BUFFER_SIZE =10000;
     private LoadingFrame lf;
     
     public Handler(String absolutePath, List<String> files, LoadingFrame lf){
